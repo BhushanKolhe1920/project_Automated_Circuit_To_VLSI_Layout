@@ -131,12 +131,20 @@ Next we need to deal with actual files that is spice netlist files, tech files, 
  
  ```
  
+ Output AND2X1 :
+ 
+ <img src ="https://github.com/BhushanKolhe1920/internship_project_Automated_Circuit_To_VLSI_Layout/blob/master/Images/Output_AND2X1_SS.png">
+ 
  ii. AND4 : I have used AND4 spice netlist & cell name to generate layout of AND4.
  
  ```
  magic AND4.mag
  
  ```
+ 
+ Ouput AND4 :
+ 
+ <img src ="https://github.com/BhushanKolhe1920/internship_project_Automated_Circuit_To_VLSI_Layout/blob/master/Images/Output_AND4_SS.png">
  
  [Hit CTRL if cursor is blinking again & again & Make sure that ouput gd files is stored on Desktop]
  
