@@ -153,3 +153,9 @@ Next we need to deal with actual files that is spice netlist files, tech files, 
  - Graphic Database System File .gds]
  - Library Exchange Format [.lef]
  
+ ## Contact Information 
+ 
+ - Bhushan Kolhe, B.E [Electronics & Telecommunication Engineering], Don Bosco Institute Of Technology, Mumbai. bhushank1920@gmail.com
+ - Philipp Guhring, Software Architect at Libresilicon Association. pg@futureware.at
+ - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalpghosh@gmail.com
+ - Dr. Gaurav Trivedi, Co-principal & Associative Professor, EEE Department, IIT Guwahati. trivedi@iitg.ac.in
