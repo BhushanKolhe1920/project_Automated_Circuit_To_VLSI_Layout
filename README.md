@@ -48,8 +48,8 @@ To check whether all tools are installed : Try for checkpoint
 
 Checkpoint1 : Type `ngspice` for ngspice; Give command `z3 --help` for z3 solver ; Give command `python3` for python.
 
-Now next we need to work on python virtula environment :
-Useing following commands we can work on python virtual envrionment
+Now next we need to work on python virtual environment :
+Using following commands we can work on python virtual envrionment
 
 ```
 python3 -m venv my-librecell-env
