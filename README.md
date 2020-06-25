@@ -29,7 +29,9 @@ Steps Involved :
 For ubuntu, using terminal we will download required tools.
 Command to install ngspice & install  is : 
 ```
-sudo pacman -S install ngspice z3
+sudo apt-get install ngspice
+
+sudo apt-get install z3
 ```
 
 To install python3 use following command : 
