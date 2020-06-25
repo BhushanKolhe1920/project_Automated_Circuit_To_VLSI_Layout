@@ -23,20 +23,50 @@ Steps Involved :
 - Installing librecell using git
 - Applying Conversion Commands
 - Installing MAGIC To see Layout
+- Installing klayout to see Layout.
+
+
 
 ### Downloading Python3, Ngspice, Z3 Solver 
 
-For ubuntu, using terminal we will download required tools.
-Command to install ngspice & install  is : 
-```
-sudo apt-get install ngspice
 
-sudo apt-get install z3
+
+Requirement Of Python3 : In layouting process, designing rules are described by the tech file in form of python file.
+Requirement Of z3 solver : Routing process is invloved in layouting which is carried out by z3 solver.Here dijkstra's algorithm is used to routing.
+Requirement of ngspice : Here we are using spice netlist as input, this spice netlist is checked by ngspice.
+Requirement of magic: MAGIC software is used to view,edit layout.It is VLSI layout tool.
+Requirement Of klayout : Klayout is used to see graphic data database system i.e GDS file.
+{Openscad : We can use openscad software to view 3D design of layout. Openscad uses gds3xtrude to cinvert layout from 2D to 3D . In this project it is used fo visualization purpose.}
+
+### Input & Output Files
+ 
+ So using librecell we get to know that we can convert spice netlist to its layout.
+ 
+ Input files used :   
+ - Spice netlist [.sp]
+ - Tech file [.py]
+ - cell name
+     
+     
+     
+ Output Files obtained :  
+ - Graphic Database System File .gds]
+ - Library Exchange Format [.lef]
+
+To install python3 use following command :
+```
+sudo apt-get install python3 `
+
 ```
 
-To install python3 use following command : 
+To install ngspice use following command :
+``` 
+sudo apt-get install ngspice `
 ```
-sudo apt-get install python3
+
+To install z3 solver use following command : 
+``` 
+sudo apt-get install z3 `
 ```
 
 We will also require MAGIC software to check/read Layout(.mag file)
@@ -45,6 +75,13 @@ To download MAGIC :
 ```
 sudo apt-get install magic
 ```
+
+ To download KLayout :
+- Click On klayout here  :  KLAYOUT(https://www.klayout.de/build.html)
+- Download appropriate version of klayout ; it depends on your operating system.
+- Open it & Install Klayout
+
+
 
 To check whether all tools are installed : Try for checkpoint
 
