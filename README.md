@@ -135,7 +135,10 @@ Next we need to deal with actual files that is spice netlist files, tech files, 
  `cd librecell-layout`
  
  Make directory :
- 'mkdir /tmp/mylibrary'
+ 
+ ```
+ mkdir /tmp/mylibrary`
+ ```
  
  ### Conversion command
  
