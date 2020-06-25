@@ -187,18 +187,31 @@ Next we need to deal with actual files that is spice netlist files, tech files, 
  
  [Hit CTRL if cursor is blinking again & again & Make sure that ouput gd files is stored on Desktop]
  
- ### Input & Output Files
  
- So using librecell we get to know that we can convert spice netlist to its layout.
+ ### Klayout :
  
- Input files used :   
- - Spice netlist [.sp]
- - Tech file [.py]
- - cell name
-                      
- Output Files obtained :  
- - Graphic Database System File .gds]
- - Library Exchange Format [.lef]
+ i. AND2X1 Klayout : To view klayout of circuit use following command :
+ 
+ ```
+ klayout AND2X1.gds
+ 
+ ```
+ 
+ Output AND2X1 Klayout : 
+ <img src="">
+ 
+ 
+ ii. AND4 Klayout : 
+ 
+ Use following command :
+ 
+ ```
+ klayout AND4.gds
+ ```
+ 
+ Output AND4 Klayout : 
+ 
+ <img src="">
  
  ## Contact Information 
  
