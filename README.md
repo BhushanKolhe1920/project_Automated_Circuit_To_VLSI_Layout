@@ -158,8 +158,12 @@ Next we need to deal with actual files that is spice netlist files, tech files, 
  
  ### MAGIC Layout 
  
- Checkpoint 3 : To make sure MAGIC is installed make a file of magic using `magic checkpoint3.mag`
+ Checkpoint 3 : 
+ 
+ To make sure MAGIC is installed make a file of magic using `magic checkpoint3.mag`
  If MAGIC with blank project is opened then MAGIC is installed.
+ 
+ To make sure klayout is installed give command ` klayout -h `
  
  i. AND2X1 : I have used AND2X1 Sspice netlist & cell to generate layout of AND2X1.
  
@@ -198,7 +202,7 @@ Next we need to deal with actual files that is spice netlist files, tech files, 
  ```
  
  Output AND2X1 Klayout : 
- <img src="">
+ <img src="https://github.com/BhushanKolhe1920/internship_project_Automated_Circuit_To_VLSI_Layout/blob/master/AND2X1_klayout_SS.png">
  
  
  ii. AND4 Klayout : 
@@ -211,7 +215,7 @@ Next we need to deal with actual files that is spice netlist files, tech files, 
  
  Output AND4 Klayout : 
  
- <img src="">
+ <img src="https://github.com/BhushanKolhe1920/internship_project_Automated_Circuit_To_VLSI_Layout/blob/master/AND4_Klayout_SS.png">
  
  ## Contact Information 
  
